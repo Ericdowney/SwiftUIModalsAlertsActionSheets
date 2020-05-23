@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		D7C9A3EB2479719500176BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A3EA2479719500176BF5 /* AppDelegate.swift */; };
 		D7C9A3ED2479719500176BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A3EC2479719500176BF5 /* SceneDelegate.swift */; };
-		D7C9A3EF2479719500176BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A3EE2479719500176BF5 /* ContentView.swift */; };
+		D7C9A3EF2479719500176BF5 /* SimpleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A3EE2479719500176BF5 /* SimpleModalView.swift */; };
 		D7C9A3F12479719900176BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C9A3F02479719900176BF5 /* Assets.xcassets */; };
 		D7C9A3F42479719900176BF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C9A3F32479719900176BF5 /* Preview Assets.xcassets */; };
 		D7C9A3F72479719900176BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C9A3F52479719900176BF5 /* LaunchScreen.storyboard */; };
+		D7C9A3FF2479720200176BF5 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A3FE2479720200176BF5 /* ModalView.swift */; };
+		D7C9A401247973D400176BF5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A400247973D400176BF5 /* MainView.swift */; };
+		D7C9A4032479759C00176BF5 /* BrokenModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4022479759C00176BF5 /* BrokenModalView.swift */; };
+		D7C9A40524797E4100176BF5 /* ExtractedModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40424797E4100176BF5 /* ExtractedModalView.swift */; };
+		D7C9A407247980B100176BF5 /* BrokenExtractedModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A406247980B100176BF5 /* BrokenExtractedModalView.swift */; };
+		D7C9A40B2479865C00176BF5 /* ContainerModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40A2479865C00176BF5 /* ContainerModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7C9A3E72479719500176BF5 /* ModalsAndAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalsAndAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C9A3EA2479719500176BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C9A3EC2479719500176BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7C9A3EE2479719500176BF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7C9A3EE2479719500176BF5 /* SimpleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleModalView.swift; sourceTree = "<group>"; };
 		D7C9A3F02479719900176BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C9A3F32479719900176BF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D7C9A3F62479719900176BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C9A3F82479719900176BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C9A3FE2479720200176BF5 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		D7C9A400247973D400176BF5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D7C9A4022479759C00176BF5 /* BrokenModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenModalView.swift; sourceTree = "<group>"; };
+		D7C9A40424797E4100176BF5 /* ExtractedModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedModalView.swift; sourceTree = "<group>"; };
+		D7C9A406247980B100176BF5 /* BrokenExtractedModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenExtractedModalView.swift; sourceTree = "<group>"; };
+		D7C9A40A2479865C00176BF5 /* ContainerModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,10 @@
 			children = (
 				D7C9A3EA2479719500176BF5 /* AppDelegate.swift */,
 				D7C9A3EC2479719500176BF5 /* SceneDelegate.swift */,
-				D7C9A3EE2479719500176BF5 /* ContentView.swift */,
+				D7C9A400247973D400176BF5 /* MainView.swift */,
+				D7C9A4082479817500176BF5 /* Modals */,
+				D7C9A4092479817900176BF5 /* Alerts */,
+				D7C9A40C247988B700176BF5 /* Action Sheets */,
 				D7C9A3F02479719900176BF5 /* Assets.xcassets */,
 				D7C9A3F52479719900176BF5 /* LaunchScreen.storyboard */,
 				D7C9A3F82479719900176BF5 /* Info.plist */,
@@ -73,6 +88,33 @@
 				D7C9A3F32479719900176BF5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7C9A4082479817500176BF5 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				D7C9A3EE2479719500176BF5 /* SimpleModalView.swift */,
+				D7C9A4022479759C00176BF5 /* BrokenModalView.swift */,
+				D7C9A40424797E4100176BF5 /* ExtractedModalView.swift */,
+				D7C9A406247980B100176BF5 /* BrokenExtractedModalView.swift */,
+				D7C9A40A2479865C00176BF5 /* ContainerModalView.swift */,
+				D7C9A3FE2479720200176BF5 /* ModalView.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		D7C9A4092479817900176BF5 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		D7C9A40C247988B700176BF5 /* Action Sheets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Action Sheets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +190,13 @@
 			files = (
 				D7C9A3EB2479719500176BF5 /* AppDelegate.swift in Sources */,
 				D7C9A3ED2479719500176BF5 /* SceneDelegate.swift in Sources */,
-				D7C9A3EF2479719500176BF5 /* ContentView.swift in Sources */,
+				D7C9A40524797E4100176BF5 /* ExtractedModalView.swift in Sources */,
+				D7C9A3FF2479720200176BF5 /* ModalView.swift in Sources */,
+				D7C9A4032479759C00176BF5 /* BrokenModalView.swift in Sources */,
+				D7C9A401247973D400176BF5 /* MainView.swift in Sources */,
+				D7C9A40B2479865C00176BF5 /* ContainerModalView.swift in Sources */,
+				D7C9A407247980B100176BF5 /* BrokenExtractedModalView.swift in Sources */,
+				D7C9A3EF2479719500176BF5 /* SimpleModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
