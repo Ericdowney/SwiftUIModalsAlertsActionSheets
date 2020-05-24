@@ -24,6 +24,11 @@
 		D7C9A4122479EAA700176BF5 /* ExtractedAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4112479EAA700176BF5 /* ExtractedAlertView.swift */; };
 		D7C9A4142479EAB100176BF5 /* BrokenExtractedAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4132479EAB100176BF5 /* BrokenExtractedAlertView.swift */; };
 		D7C9A4162479EABB00176BF5 /* ContainerAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4152479EABB00176BF5 /* ContainerAlertView.swift */; };
+		D7C9A41C247AB92000176BF5 /* SimpleActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A417247AB92000176BF5 /* SimpleActionSheetView.swift */; };
+		D7C9A41D247AB92000176BF5 /* ContainerActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A418247AB92000176BF5 /* ContainerActionSheetView.swift */; };
+		D7C9A41E247AB92000176BF5 /* BrokenActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A419247AB92000176BF5 /* BrokenActionSheetView.swift */; };
+		D7C9A41F247AB92000176BF5 /* BrokenExtractedActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A41A247AB92000176BF5 /* BrokenExtractedActionSheetView.swift */; };
+		D7C9A420247AB92000176BF5 /* ExtractedActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A41B247AB92000176BF5 /* ExtractedActionSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		D7C9A4112479EAA700176BF5 /* ExtractedAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedAlertView.swift; sourceTree = "<group>"; };
 		D7C9A4132479EAB100176BF5 /* BrokenExtractedAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenExtractedAlertView.swift; sourceTree = "<group>"; };
 		D7C9A4152479EABB00176BF5 /* ContainerAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerAlertView.swift; sourceTree = "<group>"; };
+		D7C9A417247AB92000176BF5 /* SimpleActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleActionSheetView.swift; sourceTree = "<group>"; };
+		D7C9A418247AB92000176BF5 /* ContainerActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerActionSheetView.swift; sourceTree = "<group>"; };
+		D7C9A419247AB92000176BF5 /* BrokenActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokenActionSheetView.swift; sourceTree = "<group>"; };
+		D7C9A41A247AB92000176BF5 /* BrokenExtractedActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokenExtractedActionSheetView.swift; sourceTree = "<group>"; };
+		D7C9A41B247AB92000176BF5 /* ExtractedActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractedActionSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +138,11 @@
 		D7C9A40C247988B700176BF5 /* Action Sheets */ = {
 			isa = PBXGroup;
 			children = (
+				D7C9A417247AB92000176BF5 /* SimpleActionSheetView.swift */,
+				D7C9A419247AB92000176BF5 /* BrokenActionSheetView.swift */,
+				D7C9A41B247AB92000176BF5 /* ExtractedActionSheetView.swift */,
+				D7C9A41A247AB92000176BF5 /* BrokenExtractedActionSheetView.swift */,
+				D7C9A418247AB92000176BF5 /* ContainerActionSheetView.swift */,
 			);
 			path = "Action Sheets";
 			sourceTree = "<group>";
@@ -203,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C9A420247AB92000176BF5 /* ExtractedActionSheetView.swift in Sources */,
 				D7C9A3EB2479719500176BF5 /* AppDelegate.swift in Sources */,
 				D7C9A3ED2479719500176BF5 /* SceneDelegate.swift in Sources */,
+				D7C9A41F247AB92000176BF5 /* BrokenExtractedActionSheetView.swift in Sources */,
 				D7C9A4122479EAA700176BF5 /* ExtractedAlertView.swift in Sources */,
 				D7C9A4102479D32B00176BF5 /* BrokenAlertView.swift in Sources */,
 				D7C9A40524797E4100176BF5 /* ExtractedModalView.swift in Sources */,
@@ -214,8 +231,11 @@
 				D7C9A4032479759C00176BF5 /* BrokenModalView.swift in Sources */,
 				D7C9A40E2479D1E700176BF5 /* SimpleAlertView.swift in Sources */,
 				D7C9A401247973D400176BF5 /* MainView.swift in Sources */,
+				D7C9A41C247AB92000176BF5 /* SimpleActionSheetView.swift in Sources */,
+				D7C9A41E247AB92000176BF5 /* BrokenActionSheetView.swift in Sources */,
 				D7C9A40B2479865C00176BF5 /* ContainerModalView.swift in Sources */,
 				D7C9A407247980B100176BF5 /* BrokenExtractedModalView.swift in Sources */,
+				D7C9A41D247AB92000176BF5 /* ContainerActionSheetView.swift in Sources */,
 				D7C9A3EF2479719500176BF5 /* SimpleModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

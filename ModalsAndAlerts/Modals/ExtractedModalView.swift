@@ -1,6 +1,5 @@
 //
 //  ExtractedModalView.swift
-//  ModalsAndAlerts
 //
 //  Created by Uncanny Apps on 5/23/20.
 //  Copyright © 2020 Dev-Central. All rights reserved.

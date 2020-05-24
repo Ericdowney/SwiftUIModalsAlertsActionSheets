@@ -24,7 +24,13 @@ struct MainView: View {
         (3, "Broken Extracted Alert Example", AnyView(BrokenExtractedAlertView())),
         (4, "Container Alert Example", AnyView(ContainerAlertView())),
     ]
-    private var actionSheetData: [(id: Int, display: String, destination: AnyView)] = []
+    private var actionSheetData: [(id: Int, display: String, destination: AnyView)] = [
+        (0, "Simple ActionSheet Example", AnyView(SimpleActionSheetView())),
+        (1, "Broken ActionSheet Example", AnyView(BrokenActionSheetView())),
+        (2, "Extracted ActionSheet Example", AnyView(ExtractedActionSheetView())),
+        (3, "Broken Extracted ActionSheet Example", AnyView(BrokenExtractedActionSheetView())),
+        (4, "Container ActionSheet Example", AnyView(ContainerActionSheetView())),
+    ]
     
     private var allData: [(id: Int, title: String, data: [(id: Int, display: String, destination: AnyView)])] {
         [(0, "Modals", modalData), (1, "Alerts", alertData), (2, "Action Sheets", actionSheetData)]
@@ -33,6 +39,10 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
+                Text("Examples for presenting modals, alerts, and actionsheets")
+                    .font(.footnote)
+                    .foregroundColor(.secondary)
+                
                 ForEach(allData, id: \.id) { item in
                     Section(header: Text(item.title)) {
                         ForEach(item.data, id: \.id) { element in
@@ -42,7 +52,7 @@ struct MainView: View {
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationBarTitle("Modals & Alerts")
+            .navigationBarTitle("Presentations")
         }
     }
 }
