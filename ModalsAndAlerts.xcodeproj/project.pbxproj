@@ -19,6 +19,11 @@
 		D7C9A40524797E4100176BF5 /* ExtractedModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40424797E4100176BF5 /* ExtractedModalView.swift */; };
 		D7C9A407247980B100176BF5 /* BrokenExtractedModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A406247980B100176BF5 /* BrokenExtractedModalView.swift */; };
 		D7C9A40B2479865C00176BF5 /* ContainerModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40A2479865C00176BF5 /* ContainerModalView.swift */; };
+		D7C9A40E2479D1E700176BF5 /* SimpleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40D2479D1E700176BF5 /* SimpleAlertView.swift */; };
+		D7C9A4102479D32B00176BF5 /* BrokenAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A40F2479D32B00176BF5 /* BrokenAlertView.swift */; };
+		D7C9A4122479EAA700176BF5 /* ExtractedAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4112479EAA700176BF5 /* ExtractedAlertView.swift */; };
+		D7C9A4142479EAB100176BF5 /* BrokenExtractedAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4132479EAB100176BF5 /* BrokenExtractedAlertView.swift */; };
+		D7C9A4162479EABB00176BF5 /* ContainerAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9A4152479EABB00176BF5 /* ContainerAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		D7C9A40424797E4100176BF5 /* ExtractedModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedModalView.swift; sourceTree = "<group>"; };
 		D7C9A406247980B100176BF5 /* BrokenExtractedModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenExtractedModalView.swift; sourceTree = "<group>"; };
 		D7C9A40A2479865C00176BF5 /* ContainerModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerModalView.swift; sourceTree = "<group>"; };
+		D7C9A40D2479D1E700176BF5 /* SimpleAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlertView.swift; sourceTree = "<group>"; };
+		D7C9A40F2479D32B00176BF5 /* BrokenAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenAlertView.swift; sourceTree = "<group>"; };
+		D7C9A4112479EAA700176BF5 /* ExtractedAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedAlertView.swift; sourceTree = "<group>"; };
+		D7C9A4132479EAB100176BF5 /* BrokenExtractedAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenExtractedAlertView.swift; sourceTree = "<group>"; };
+		D7C9A4152479EABB00176BF5 /* ContainerAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 		D7C9A4092479817900176BF5 /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
+				D7C9A40D2479D1E700176BF5 /* SimpleAlertView.swift */,
+				D7C9A40F2479D32B00176BF5 /* BrokenAlertView.swift */,
+				D7C9A4112479EAA700176BF5 /* ExtractedAlertView.swift */,
+				D7C9A4132479EAB100176BF5 /* BrokenExtractedAlertView.swift */,
+				D7C9A4152479EABB00176BF5 /* ContainerAlertView.swift */,
 			);
 			path = Alerts;
 			sourceTree = "<group>";
@@ -190,9 +205,14 @@
 			files = (
 				D7C9A3EB2479719500176BF5 /* AppDelegate.swift in Sources */,
 				D7C9A3ED2479719500176BF5 /* SceneDelegate.swift in Sources */,
+				D7C9A4122479EAA700176BF5 /* ExtractedAlertView.swift in Sources */,
+				D7C9A4102479D32B00176BF5 /* BrokenAlertView.swift in Sources */,
 				D7C9A40524797E4100176BF5 /* ExtractedModalView.swift in Sources */,
+				D7C9A4162479EABB00176BF5 /* ContainerAlertView.swift in Sources */,
 				D7C9A3FF2479720200176BF5 /* ModalView.swift in Sources */,
+				D7C9A4142479EAB100176BF5 /* BrokenExtractedAlertView.swift in Sources */,
 				D7C9A4032479759C00176BF5 /* BrokenModalView.swift in Sources */,
+				D7C9A40E2479D1E700176BF5 /* SimpleAlertView.swift in Sources */,
 				D7C9A401247973D400176BF5 /* MainView.swift in Sources */,
 				D7C9A40B2479865C00176BF5 /* ContainerModalView.swift in Sources */,
 				D7C9A407247980B100176BF5 /* BrokenExtractedModalView.swift in Sources */,

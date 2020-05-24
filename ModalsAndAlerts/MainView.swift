@@ -17,7 +17,13 @@ struct MainView: View {
         (3, "Broken Extracted Modal Example", AnyView(BrokenExtractedModalView())),
         (4, "Container Modal Example", AnyView(ContainerModalView())),
     ]
-    private var alertData: [(id: Int, display: String, destination: AnyView)] = []
+    private var alertData: [(id: Int, display: String, destination: AnyView)] = [
+        (0, "Simple Alert Example", AnyView(SimpleAlertView())),
+        (1, "Broken Alert Example", AnyView(BrokenAlertView())),
+        (2, "Extracted Alert Example", AnyView(ExtractedAlertView())),
+        (3, "Broken Extracted Alert Example", AnyView(BrokenExtractedAlertView())),
+        (4, "Container Alert Example", AnyView(ContainerAlertView())),
+    ]
     private var actionSheetData: [(id: Int, display: String, destination: AnyView)] = []
     
     private var allData: [(id: Int, title: String, data: [(id: Int, display: String, destination: AnyView)])] {
